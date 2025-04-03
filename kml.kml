@@ -6,8 +6,8 @@
 
   <!-- Marcador Principal do Negócio -->
   <Placemark>
-    <name>[Nome Exato do Seu Negócio]</name>
-    <address>[Seu Endereço Completo Exato, Rua Número, CEP, Cidade, Estado, País]</address>
+    <name>Marido de aluguel em Petrópolis | Encanador | Eletricista | limpeza de estofados</name>
+    <address>Debora couto sicupira 58 - Carangola, Petrópolis - RJ, 25715-364</address>
     <ExtendedData>
         <Data name="telefone">
             <value>+5524981244659</value> <!-- Ex: +55 11 99999-9999 -->
