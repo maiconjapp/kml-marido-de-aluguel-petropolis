@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Informação Geográfica de Marido de aluguel em Petrópolis | Encanador | Eletricista | limpeza de estofados</name>
+  <description>Dados de localização e área de serviço para [Nome Exato do Seu Negócio], incluindo links relevantes e detalhes.</description>
+
+  <!-- Marcador Principal do Negócio -->
+  <Placemark>
+    <name>[Nome Exato do Seu Negócio]</name>
+    <address>[Seu Endereço Completo Exato, Rua Número, CEP, Cidade, Estado, País]</address>
+    <ExtendedData>
+        <Data name="telefone">
+            <value>+5524981244659</value> <!-- Ex: +55 11 99999-9999 -->
+        </Data>
+        <Data name="url">
+            <value>https://maridodealuguelpetropolis.com.br/fale-conosco</value> <!-- URL do seu site -->
+        </Data>
+        <!-- Você pode adicionar mais dados estruturados aqui se achar necessário -->
+    </ExtendedData>
+    <description>
+      <![CDATA[
+        <h1>Marido de aluguel em Petrópolis | Encanador | Eletricista | limpeza de estofados</h1>
+        <p><strong>O Marido de Aluguel Petrópolis , atua não só em Itaipava, areal, (24)98104-4713 mais sim em toda região serrana, centro de Petrópolis com objetivo de garantir o serviço com profissionalismo e com seriedade. Estamos do mercado a 8 anos realizando serviços como: marido de aluguel, nossa empresa de limpeza e higienização de estofados, hidráulica, elétrica e pequenos reparos como instalação: Chuveiro ou troca de sua resistência, lavagem a seco, limpeza de colchão e sofá, Lustres, Disjuntores, interruptores e tomadas ? Luminária, Ventiladores de teto, Torneira elétrica, limpeza de sofá, Troca de lâmpadas, Diversos outros serviços elétricos HIDRÁULICOS: Torneiras e seus reparos (vedantes) Troca e limpeza de chuveiros, cortina</strong></p>
+        <p>
+          Endereço: Debora couto sicupira 58 - Carangola, Petrópolis - RJ, 25715-364<br>
+          Telefone: <a href="tel:+552498124-4659">[+CódigoPaís Seu Número de Telefone Principal]</a><br>
+          Horário:Segunda a Sabado das 7:00 às 17:00]
+        </p>
+        <p>
+          <a href="https://maridodealuguelpetropolis.com.br/fale-conosco">Visite nosso site</a> |
+          <a href="https://bit.ly/Marido-de-aluguel-Petropolis</a> |
+          <a href="https://maridodealuguelpetropolis.com.br/fale-conosco">Serviço de Reparos Urgentes</a> <!-- Link para página de serviço relevante -->
+        </p>
+        <p>
+          <img src="https://maridodealuguelpetropolis.com.br/fale-conosco" alt="Logo de [Nome Exato do Seu Negócio]" width="100" /> <!-- URL para uma imagem pequena do seu logo -->
+        </p>
+      ]]>
+    </description>
+    <Point>
+      <coordinates>-43.16197787531566,-22.449781733325125</coordinates> <!-- IMPORTANTE: Latitude PRIMEIRO, depois Longitude. Altitude = 0. Ex: -46.633308,-23.550520,0 para São Paulo -->  
+    </Point>
+  </Placemark>
+
+  <!-- Polígono da Área de Serviço -->
+  <Placemark>
+    <name>Área de Serviço de [Nome Exato do Seu Negócio]</name>
+    <description>Zona geográfica coberta por nossos serviços.</description>
+    <Style>
+      <LineStyle>
+        <color>ff0000ff</color> <!-- Cor da borda em formato aabbggrr (ex: Vermelho opaco) -->
+        <width>2</width>      <!-- Largura da borda -->
+      </LineStyle>
+      <PolyStyle>
+        <color>800000ff</color> <!-- Cor de preenchimento (ex: Vermelho semitransparente - 80 é a opacidade) -->
+        <fill>1</fill>        <!-- 1 para preencher, 0 para não preencher -->
+        <outline>1</outline>    <!-- 1 para mostrar a borda, 0 para esconder -->
+      </PolyStyle>
+    </Style>
+   <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -43.129437,-22.3664784,0
+              -43.2207608,-22.4464639,0
+              -43.2413602,-22.5289404,0
+              -43.2241941,-22.5460639,0
+              -43.0978513,-22.5003964,0
+              -43.0875516,-22.4001287,0
+              -43.129437,-22.3664784,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
